@@ -1,0 +1,99 @@
+#modal {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_window {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  height: 300xp;
+}
+
+.modal_window input {
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+
+.close {
+  position: absolute;
+  right: 14px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.closemodal {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+.re-btn {
+  margin: auto;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #121619;
+  color: whitesmoke;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.modal_window input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.modal_window input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.modal_window input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.modal_window input[type="text"]:focus {
+  background-color: rgb(162, 216, 235);
+  transition: 1.5s;
+}
+
+.modal_window input[type="email"]:focus {
+  background-color: rgb(162, 216, 235);
+  transition: 1.5s;
+}
+
+.modal_window input[type="password"]:focus {
+  background-color: rgb(162, 216, 235);
+  transition: 1.5s;
+}

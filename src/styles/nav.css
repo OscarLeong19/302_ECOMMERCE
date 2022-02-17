@@ -1,0 +1,35 @@
+.navbar {
+  background-color: rgb(143, 143, 143);
+  height: 74px;
+  position: fixed;
+  width: 100%;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5px;
+}
+
+.navbar {
+  padding: 1em 0 !important;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  color: rgb(75, 68, 68);
+}
+.navbar .navbar-collapse .navbar-nav {
+  justify-content: center;
+  margin: auto;
+  border-bottom: black;
+}
